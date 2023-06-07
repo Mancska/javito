@@ -10,18 +10,23 @@ main{
     background-color: bisque;
 }
 header{
+    text-align: center;
     grid-area: h;
 }
 article{
     grid-area: a;
+    text-align: center;
+    
 }
 aside{
     grid-area: as;
+    padding-left: 20px;
 }
 nav{
     grid-area: n;
 }
 footer{
+    text-align: center;
     grid-area: f;
 }
 @media only screen and (min-width: 600px) {
