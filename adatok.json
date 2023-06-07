@@ -1,0 +1,7 @@
+{
+    "filmek":[
+      {"filmcim":"John", "kep":"kep.jpg","év":"1920"},
+      {"filmcim":"Anna", "kep":"kep2.jpg","év":"1960"},
+      {"filmcim":"Peter", "kep":"kep3.jpg","év":"1970"}
+    ]
+    }

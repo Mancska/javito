@@ -1,0 +1,34 @@
+main{
+    width: 80%;
+    margin: auto;
+    padding: 0%;
+    display: grid;
+    grid-template-areas: "h h h"
+    "n n n"
+    "a a as"
+    "f f f";
+}
+header{
+    grid-area: h;
+}
+article{
+    grid-area: a;
+}
+aside{
+    grid-area: as;
+}
+nav{
+    grid-area: n;
+}
+footer{
+    grid-area: f;
+}
+@media only screen and (min-width: 600px) {
+ main{  grid-template-areas: 
+   "h"
+    "n"
+    "a"
+    "as"
+    "f"
+ };
+  }
